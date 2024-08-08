@@ -1,15 +1,19 @@
-import React from 'react';
-import Form from './Form';
-import ItemList from './ItemList';
+import React from 'react'
+import Transaction from './components/Transaction'
 
 const App = () => {
   return (
-    <div>
-      <h1>Grocery List App</h1>
-      <Form />
-      <ItemList />
-    </div>
-  );
-};
+      <div>
+        <div>
+        <h1>Flatiron Bank</h1>
+        <SearchBar />
+        </div>
+        <div>
+        <Transaction />
+        <TransactionForm />
+        </div>
+      </div>
+  )
+}
 
-export default App;
+export default App
